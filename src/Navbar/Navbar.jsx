@@ -28,6 +28,7 @@ export default function Navbar() {
     else{
       setc4('#F10A05')
     }
+
   }
 
   return (
