@@ -1,18 +1,27 @@
+import About from './About/About'
 import './App.css'
 import Mainpage from './Mainpage/Mainpage'
 import Navbar from './Navbar/Navbar'
-import Roadmap from './Roadmap/Roadmap'
+import Story from './Story/Story'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Whiteboard from './Whiteboard/Whiteboard'
 
 function App() {
-
+  
   return (
-    <div>
+    <BrowserRouter>
       <Navbar/>
-      <div className="App">
-      <Mainpage/>
-      <Roadmap/>
-      </div>
-    </div>
+      <Routes>
+        <Route  path='/' element={<Mainpage/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path="/story" element={<Story/>} />
+        <Route path='/whiteboard' element={<Whiteboard/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

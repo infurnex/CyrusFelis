@@ -1,6 +1,7 @@
 import React from 'react'
 import './Mainpage.css'
 import bg from './mpbackground.png'
+import Navbar from '../Navbar/Navbar'
 
 export default function Mainpage() {
   return (

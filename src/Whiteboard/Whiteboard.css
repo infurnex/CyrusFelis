@@ -1,0 +1,46 @@
+
+.whiteboard{
+    background-image: url('../Background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pdf-space{
+    margin: auto;
+    padding: 5vh;
+}
+.document{
+    display: flex;
+    justify-content: center;
+    padding: 7vh;
+}
+p{
+    color: white;
+    padding: 100px;
+}
+.react-pdf__Page__annotations{
+    display: none;
+}
+.react-pdf__Page__textContent{
+    display: none;
+}
+.pagenumber{
+    text-align: center;
+    color: white;
+}
+.changepage{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.changepage>div{
+    padding: 5px;
+    width: 80px;
+    color: white;
+    margin: 0 20px 0px 20px;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}

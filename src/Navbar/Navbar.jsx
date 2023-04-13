@@ -3,6 +3,7 @@ import './Navbar.css'
 import discord from './discord-logo.png'
 import twitter from './Twitter-logo.png'
 import Cyrusfelis from './Cyrusfelis.png'
+import { Link } from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -37,16 +38,23 @@ export default function Navbar() {
         <img src={Cyrusfelis}></img>
       </div>
       <div className='navbar-routes'>
-        <div style={{color: c1}} onClick={()=>{setClass(1)}}>
-          About
-        </div>
-        <div style={{color: c2}} onClick={()=>{setClass(2)}}>
-          Story
-        </div>
-        <div style={{color: c3}} onClick={()=>{setClass(3)}}>
-          Whitepaper
-        </div>
-        <div style={{color: c4}} onClick={()=>{setClass(4)}}>
+        <Link to='/about' style={{textDecoration : 'none'}}>
+          <div className='navbar-route' style={{color: c1}} onClick={()=>{setClass(1)}}>
+            About
+          </div>
+        </Link>
+        <Link to='/story' style={{textDecoration : 'none'}}>
+          <div className='navbar-route' style={{color: c2}} onClick={()=>{setClass(2)}}>
+            Story
+          </div>
+        </Link>
+        <Link to='/whiteboard' style={{textDecoration : 'none'}}>
+          <div className='navbar-route' style={{color: c3}} onClick={()=>{setClass(3)}}>
+            Whitepaper
+          </div>
+        </Link>
+
+        <div className='navbar-route' style={{color: c4}} onClick={()=>{setClass(4)}}>
           FAQ
         </div>
       </div>
