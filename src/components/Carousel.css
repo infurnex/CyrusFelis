@@ -1,0 +1,28 @@
+.carousel-container {
+  width: 50vw;
+  
+}
+
+.slide {
+  transition: all 0.1s ease;
+}
+
+.shine {
+  width: 25%;
+  margin-top: -5%;
+  height: 5px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: aqua;
+  margin-left: 17vw;
+}
+
+.slide img {
+  padding: 35% 0 35% 0;
+}
+
+.slide.activeSlide img {
+  transform: scale(1.2);
+}

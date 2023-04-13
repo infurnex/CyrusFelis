@@ -1,0 +1,15 @@
+.faq-item {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.faq-question {
+  cursor: pointer;
+  background: rgba(100, 100, 100, 0.21);
+  padding: 5% 0% 5% 0%;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(100, 100, 100, 0.21);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(100, 100, 100, 0.21);
+}

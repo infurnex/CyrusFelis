@@ -55,10 +55,11 @@ export default function Navbar() {
             Whitepaper
           </div>
         </Link>
-
+        <Link to='/faq' style={{textDecoration : 'none'}}>
         <div className='navbar-route' style={{color: c4}} onClick={()=>{setClass(4)}}>
           FAQ
         </div>
+        </Link>
       </div>
       <div className='navbar-links'>
         <img src={twitter}></img>

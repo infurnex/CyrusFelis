@@ -3,7 +3,9 @@ import { useEffect, useRef } from 'react'
 import Roadmap from '../Roadmap/Roadmap'
 import Collections from '../Collections/Collections'
 import './About.css'
+import ProjectDescription from '../Description/Description'
 
+import CoreTeam from "../coreteam/Coreteam"
 
 export default function About() {
 
@@ -66,8 +68,10 @@ export default function About() {
 
   return (
     <div className='about'>
+      <ProjectDescription />
       <Roadmap targetone={targetone} targettwo={targettwo} targetthree={targetthree} targetone24={targetone24} targettwo24={targettwo24} targetthree24={targetthree24}/>
-      <Collections/>
+      <Collections />
+      <CoreTeam />
     </div>
   )
 }
