@@ -2,6 +2,7 @@ import React from 'react'
 import './Mainpage.css'
 import bg from './mpbackground.png'
 import Navbar from '../Navbar/Navbar'
+import { Link } from 'react-router-dom'
 
 export default function Mainpage() {
   return (
@@ -12,9 +13,11 @@ export default function Mainpage() {
           Get Your <span>Crypto Credits</span>
         </div>
         <div className='main-explore'>
+          <Link to='/about' style={{textDecoration : 'none'}}>
           <div className='main-explore-button'>
             EXPLORE
           </div>
+          </Link>
           
         </div>
       </div>

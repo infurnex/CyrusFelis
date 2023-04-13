@@ -35,7 +35,9 @@ export default function Navbar() {
   return (
     <div className='navbar'>
       <div className='navbar-logo'>
-        <img src={Cyrusfelis}></img>
+        <Link to='/'>
+        <img src={Cyrusfelis} className='navbar-logo-img'></img>
+        </Link>
       </div>
       <div className='navbar-routes'>
         <Link to='/about' style={{textDecoration : 'none'}}>

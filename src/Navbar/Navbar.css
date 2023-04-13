@@ -8,7 +8,7 @@
     align-items: center;
     box-sizing: border-box;
 }
-.navbar-logo>img{
+.navbar-logo-img{
     height: 60px;
 }
 .navbar-routes{

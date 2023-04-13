@@ -45,6 +45,7 @@
     font-weight: bold;
     border-radius: 20px;
     letter-spacing: 1px;
+    color: white;
 }
 .main-explore-button:hover{
     opacity: 0.9;
