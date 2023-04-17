@@ -1,8 +1,11 @@
 .roadmap-area{
    padding: 20px;
+   scroll-snap-align: start;
    /* box-shadow: inset 0px 0px 500px rgb(0, 0, 0); */
+   position: relative;
+   z-index: 1;
 }
-/* .roadmap-area::before{
+.roadmap-area::before{
     content: '';
     position: absolute;
     top: 50%;
@@ -10,9 +13,10 @@
     transform: translate(-50% , -50%);
     height: 100%;
     width: 100%;
-    filter: blur(10px);
+    background-color: rgb(134, 131, 131 , 0.3);
     z-index: -2;
-} */
+    mix-blend-mode: color-dodge;
+}
 .roadmap-heading{
     padding: 50px;
     display: flex;

@@ -1,7 +1,6 @@
 .main-area{
    height: 100vh;
    position: relative;
-   /* scroll-snap-align: start; */
 }
 .main-background{
     height: 100%;

@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 10% 0 10%;
+    scroll-snap-align: start;
 }
 .coreteam{
-    padding: 5vh;
+    /* padding: 5vh; */
 }

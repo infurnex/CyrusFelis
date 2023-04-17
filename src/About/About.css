@@ -3,4 +3,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    scroll-snap-type: y mandatory;
+    height: 100%;
 }
