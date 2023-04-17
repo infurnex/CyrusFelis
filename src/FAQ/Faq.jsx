@@ -1,5 +1,5 @@
 import FAQItem from "../components/FAQItem";
-import "./faq.css"
+import "./Faq.css"
 function FAQ() {
   const faqs = [
     {
@@ -16,7 +16,7 @@ function FAQ() {
   ];
 
   return (
-    <><h className="faqHeader">FAQs</h><div className="faq-container">
+    <><div className="faqHeader">FAQs</div><div className="faq-container">
 
       {faqs.map((faq, index) => (
         <FAQItem question={faq.question} answer={faq.answer} />

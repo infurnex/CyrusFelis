@@ -24,10 +24,10 @@ function FAQItem({ question, answer }) {
 
   return (
     <div className="faq-item"  onMouseEnter={toggleAnswerTrue} onMouseLeave={toggleAnswerFalse}>
-      <h2 className="faq-question">{question}</h2>
-      <p className="faq-answer" style={answerStyle}>
+      <div className="faq-question">{question}</div>
+      <div className="faq-answer" style={answerStyle}>
         {answer}
-      </p>
+      </div>
     </div>
   );
 }

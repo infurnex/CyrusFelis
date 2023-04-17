@@ -4,13 +4,10 @@
   flex-direction: column;
   margin: 0 auto;
   text-align: center;
-  margin-top: 5vh;
 }
 .faqHeader {
-
   font-size: 5vw;
   font-weight: bold;
   color: aquamarine;
-  margin: 10%;
-  
+  padding: 100px 0px 0px 50px;
 }
